@@ -1,0 +1,1107 @@
+@media only screen and (min-width: 1001px) {
+
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+* {
+    letter-spacing: 1px;
+    
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+p {
+    font-size: 1rem;
+
+}
+
+header {
+    background-image: url('https://i.imgur.com/ufP8aeg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.80;
+    height: calc((7em + 1vmin) + (7em + 1vmax));
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+h1 {
+    padding-left: .25rem;
+    padding-right: .25rem;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 640%;
+    letter-spacing: 3px;
+    color: rgba(253, 253, 253, 0.863);
+    opacity: 1.4;
+    text-shadow: 2px 2px 2px  black;
+ 
+}
+
+.menulinks {
+    background-color: #d69419;
+    text-align: center;
+    
+}
+
+
+nav {
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0.8;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+    height: 4rem;
+    
+}
+
+.nav-list  {
+    display: inline-flex;
+    margin: 0.3rem;
+    text-shadow: 5px 5px 5px 5px #000000;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 3rem;
+    
+}
+
+.mobile-nav-list {
+    padding: 0;
+
+}
+
+
+@media only screen and (min-width: 700px) {
+.home, #menu, .about-us, .contact {
+    font-size: calc((.1em + 1vmin) + (.1em + 1vmax));
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    
+   }
+}
+
+.home:hover, #menu:hover, .about-us:hover, .contact:hover, .bottom-home:hover, .bottom-menu:hover, .bottom-about-us:hover, .bottom-contact:hover {
+    text-decoration: underline;
+    transform: scale(1.3);
+    transition: 100ms ease-in-out 100ms;
+
+}
+
+.all-landing-blocks {
+    display: inline-flex;
+
+}
+
+
+.three-landing-blocks {
+    width: 70%;
+    
+}
+
+.landing-block {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+
+}
+
+.first-landing-block, .third-landing-block-text, .second-landing-block-text, .fourth-landing-block-text {
+    border: 1px solid hsl(0, 0%, 0%);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 2rem;
+    border-radius: 6px;
+    box-shadow: 4px 4px 13px 2px grey;
+    height: 30%;
+
+}
+
+h2 {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 220%;
+    color: rgba(24, 24, 24, 0.911);
+
+}
+
+p {
+    font-family: 'montserrat';
+    color: rgba(24, 24, 24, 0.911);
+
+}
+
+.second-landing-block {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    float: right;
+    width: 100%;
+
+}
+
+
+.third-landing-block {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    float: right;
+    width: 100%;
+
+}
+
+.fourth-landing-block {
+    padding-bottom: 3rem;
+    float: right;
+    width: 100%;
+
+}
+
+.right-side-desktop-pics {
+    margin: auto;
+
+}
+
+.desktop-block-pic {
+    margin-top: calc((2em + 1vmin) + (2em + 1vmax));
+    align-content: center;
+
+}
+
+.desktop-img {
+    width: 80%;
+    margin-left: 15%;
+    max-width: 65%;
+    max-height: 65%;
+    height: 50%;
+    box-shadow: 4px 4px 13px 2px grey;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.desktop-block-pic2 {
+    margin-top: 5rem;
+    margin-bottom: calc((2.3em + 1vmin) + (2.3em + 1vmax));
+
+}
+
+.menu {
+    display: content;
+
+}
+
+.menu-name {
+    justify-content: center;
+    display: inline-flex;
+    width: 100%;
+   
+}
+
+h3 {
+    font-family: 'Londrina Solid', cursive;
+    font-size: calc((.6em + 1vmin) + (.6em + 1vmax));
+    line-height: 1.7rem;
+    color: rgba(24, 24, 24, 0.911);
+    
+}
+
+.menu-column-left, .menu-column-right {
+    float: left;
+    width: 40%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    line-height: 1.5rem;
+    border: 1px solid black;
+    border-radius: 6px;
+    
+}
+
+  .menu-column-left {
+      margin-left: 10%;
+      border-right: 0;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+
+}
+
+  .menu-column-right {
+      border-left: 0;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+
+}
+
+.menu-column-left, .menu-column-right, .menu-list {
+    list-style-type: none;
+    min-height: 13rem;
+    overflow: hidden;
+
+}  
+
+.right-text {
+    margin-right: 2rem;
+
+}
+
+.menu-column-left, .menu-column-right {
+    background: linear-gradient(355deg, #d69419, #d68c19, #d68419, #d69d19, #d6a519, #d6a519, #d6a519, #d6a519);
+    background-size: 1600% 1600%;
+    -webkit-animation: AnimationName 16s ease infinite;
+    -moz-animation: AnimationName 16s ease infinite;
+    -o-animation: AnimationName 16s ease infinite;
+    animation: AnimationName 16s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+
+}
+
+@-moz-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+
+}
+
+@-o-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+
+}
+
+@keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+
+}
+
+.restaurant {
+    position: relative;
+
+}
+
+.signature-entree-block-pic {
+    display: none;
+
+}
+
+
+.restaurant{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: inline-flex;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+
+}
+
+.restaurant-pic {
+    width: 75%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 60%;
+    box-shadow: 4px 4px 13px 2px grey;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+
+.about-us-block {
+    justify-content: center;
+    text-align: center;
+    display: inline-flex;
+
+}
+
+.about-us-title {
+    margin-bottom: -0.5rem;
+    justify-content: center;
+    text-align: center;
+    display: inline-flex;
+    
+}
+
+.about-us-description {
+    width: 70%;
+    line-height: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    display: inline-flex;
+     
+}
+
+.contact-us {
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+   
+}
+
+.call-us, .call-us-body-text {
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 50%;
+    
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.call-us-button {
+    background-color: #d69419;
+    border: none;
+    color: black;
+    margin-top: .5rem;
+    margin-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-shadow: 4px 4px 13px 2px grey;
+    border: 1px solid black;
+
+}
+
+.call-us-anchor {
+    text-decoration: none;
+    color: black;
+    font-family: 'Londrina Solid', cursive;
+
+}
+
+.call-us-button:hover {
+    background-color: rgba(231, 231, 231, 0.849);
+    transition: 70ms ease-in-out 70ms;
+    text-decoration: underline;
+    transform: scale(1.3);
+
+}
+
+.other-page-footer {
+    margin-top: 60rem;
+
+}
+
+.about-us-page-footer {
+    margin-top: 4rem;
+
+}
+
+.nav-and-contact-us {
+    display: inline-flex;
+    border-top: 1px solid hsl(0, 0%, 0%);
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.navigation {
+    margin-right: 5rem;
+
+}
+
+#contactlink {
+    margin-bottom: 3rem;
+}
+
+.bottom-home, .bottom-menu, .bottom-about-us, .bottom-contact, .navigation-ul, .contact-us-footer-info {
+    font-family: 'montserrat';
+    color: rgba(24, 24, 24, 0.911);
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.contact-us-footer-info {
+    list-style-type: none;
+    line-height: 1rem;
+
+}
+
+
+.bottom-footer {
+    background-color: #d69419;
+
+}
+
+.bottom-footer-block {
+    border-top: 1px solid black;
+    height: 2rem;
+    padding-top: 1rem;
+    margin-top: 2rem;
+
+}
+
+
+.bottom-footer-block, .bottom-footer-block2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.navigation-title-footer {
+    margin-top: 89rem;
+
+}
+
+.navigation-title-footer-about-us {
+    margin-top: 5rem;
+
+}
+
+h5, h6 {
+    font-family: 'montserrat';
+    text-align: center;
+
+}
+
+
+}
+
+
+/************
+
+FORM
+
+*************/
+
+
+.container {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    box-shadow: 4px 4px 13px 2px grey;
+    
+}
+
+.form-total {
+    justify-content: center;
+    display: flex;
+}
+
+
+input[type=text], textarea { 
+    width: calc((11em + 1vmin) + (11em + 1vmax));
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    resize: vertical; 
+
+}
+
+.fname, .lname, .subject {
+    font-family: 'Londrina Solid', cursive;
+    font-size: calc((.45em + 1vmin) + (.45em + 1vmax));
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgba(24, 24, 24, 0.911);
+
+
+}
+
+#fname, #lname, #subject {
+    display: flex;
+    justify-content: center;
+    font-family: 'montserrat';
+
+}
+  
+.form-button {
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    
+}
+
+.call-us-button {
+    font-family: 'Londrina Solid', cursive;
+
+}
+
+.text-area {
+    height: 130px;
+
+}
+
+.form-button {
+    justify-content: center;
+    display: flex;
+
+}
+  
+
+@media only screen and (max-width: 1000px) { 
+
+
+    .container {
+        border-radius: 5px;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: .15rem;
+        padding-bottom: 2rem;
+        box-shadow: 4px 4px 13px 2px grey;
+        width: 60%;
+        max-width: 500px;
+        
+    }
+
+    input[type=text], textarea { 
+        width: 95%;
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        resize: vertical; 
+        
+    
+    }
+
+}    
+
+
+
+
+
+
+
+
+
+
+/******************************************
+
+MOBILE CODE
+
+******************************************/
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+
+html {
+    scroll-behavior: smooth;
+}
+       
+    
+* {
+    letter-spacing: 1px;
+
+}
+
+p {
+    font-size: 1rem;
+
+}
+
+header {
+    background-image: url('https://i.imgur.com/ufP8aeg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.82;
+    height: calc((5em + 1vmin) + (5em + 1vmax));
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+h1 {
+    padding-top: 5.25rem;
+    padding-bottom: 4rem;
+    padding-left: .25rem;
+    padding-right: .25rem;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 320%;
+    letter-spacing: 3px;
+    color: rgba(253, 253, 253, 0.863);
+    opacity: 1.4;
+    text-shadow: 2px 2px 2px  black;
+ 
+}
+
+.menulinks {
+    background-color: #d69419;
+    text-align: center;
+    
+}
+
+#navbar {
+    background-color: #d69419;
+
+}
+
+
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0.8;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+    height: 3rem;
+
+}
+
+.nav-list  {
+    display: inline-flex;
+    margin: 0.3rem;
+    text-shadow: 5px 5px 5px 5px #000000;
+    font-family: 'Londrina Solid', cursive;
+    padding-left: .25rem;
+    padding-right: .25rem;
+    font-size: 2rem;
+    
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+
+@media only screen and (min-width: 400px) {
+    .nav-list  {
+        display: inline-flex;
+        margin: 0.3rem;
+        text-shadow: 5px 5px 5px 5px #000000;
+        font-family: 'Londrina Solid', cursive;
+        padding-left: .9rem;
+        padding-right: .9rem;
+        font-size: 2rem;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+}
+
+.mobile-nav-list {
+    padding: 0;
+
+}
+
+.home, #menu, .about-us, .contact {
+    font-size: calc((.1em + 1vmin) + (.1em + 1vmax));
+    
+}
+
+.home:hover, #menu:hover, .about-us:hover, .contact:hover, .bottom-home:hover, .bottom-menu:hover, .bottom-about-us:hover, .bottom-contact:hover {
+    text-decoration: underline;
+    transform: scale(1.3);
+    transition: 100ms ease-in-out 100ms;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.landing-block {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.first-landing-block {
+    width: 80%;
+    border: 1px solid hsl(0, 0%, 0%);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-left: none;
+    box-shadow: 4px 4px 13px 2px grey;
+
+}
+
+h2 {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 180%;
+    color: rgba(24, 24, 24, 0.911);
+
+}
+
+p {
+    font-family: 'montserrat';
+    color: rgba(24, 24, 24, 0.911);
+
+}
+
+.second-landing-block, .fourth-landing-block {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    float: right;
+    width: 100%;
+
+}
+
+.second-landing-block-text, .fourth-landing-block-text {
+    width: 80%;
+    border: 1px solid hsl(0, 0%, 0%);
+    padding-left: 1rem;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-right: none;
+    box-shadow: 4px 4px 13px 2px grey;
+    float: right;
+
+}
+
+.third-landing-block {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    float: right;
+    width: 100%;
+
+}
+
+.third-landing-block-text {
+    width: 80%;
+    border: 1px solid hsl(0, 0%, 0%);
+    padding-left: 1rem;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-left: none;
+    box-shadow: 4px 4px 13px 2px grey;
+   
+}
+
+.desktop-block-pic, .desktop-block-pic2 {
+    display: none;
+
+}
+
+.menu {
+    display: content;
+
+}
+
+.menu-name {
+    justify-content: center;
+    display: inline-flex;
+    width: 100%;
+   
+}
+
+h3 {
+    font-family: 'Londrina Solid', cursive;
+    font-size: calc((.45em + 1vmin) + (.45em + 1vmax));
+    line-height: 1.7rem;
+    color: rgba(24, 24, 24, 0.911);
+    
+}
+
+.menu-column-left, .menu-column-right {
+    float: left;
+    width: 50%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    line-height: 1.5rem;
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+
+}
+
+.menu-column-left, .menu-column-right, .menu-list {
+    list-style-type: none;
+    min-height: 22rem;
+    overflow: hidden;
+
+}  
+
+@media only screen and (min-width: 400px) {
+    .menu-column-left, .menu-column-right, .menu-list {
+        list-style-type: none;
+        min-height: 18rem;
+        overflow: hidden;
+    }
+}   
+
+.right-text {
+    margin-right: 2rem;
+}
+
+.menu-column-left, .menu-column-right {
+    background: linear-gradient(355deg, #d69419, #d68c19, #d68419, #d69d19, #d6a519, #d6a519, #d6a519, #d6a519);
+    background-size: 1600% 1600%;
+    -webkit-animation: AnimationName 16s ease infinite;
+    -moz-animation: AnimationName 16s ease infinite;
+    -o-animation: AnimationName 16s ease infinite;
+    animation: AnimationName 16s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+
+}
+
+@-moz-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+
+}
+
+@-o-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+
+}
+
+@keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+
+}
+
+.restaurant, .signature-entree-block-pic {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: inline-flex;
+    margin-top: 3rem;
+
+}
+
+.restaurant-pic, .signature-entree-pic{
+    width: 80%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 60%;
+    box-shadow: 4px 4px 13px 2px grey;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+
+.about-us-block {
+    justify-content: center;
+    text-align: center;
+    display: inline-flex;
+
+}
+
+.about-us-title {
+    margin-bottom: -0.5rem;
+    justify-content: center;
+    text-align: center;
+    display: inline-flex;
+    
+}
+
+.about-us-description {
+    width: 70%;
+    line-height: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    display: inline-flex;
+     
+}
+
+.contact-us {
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+      
+}
+
+.call-us, .call-us-body-text {
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 50%;
+    
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.call-us-button {
+    background-color: #d69419;
+    border: none;
+    color: black;
+    margin-top: .5rem;
+    margin-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-shadow: 4px 4px 13px 2px grey;
+    border: 1px solid black;
+
+}
+
+.call-us-anchor {
+    text-decoration: none;
+    color: black;
+    font-family: 'Londrina Solid', cursive;
+
+}
+
+.call-us-button:hover {
+    background-color: rgba(231, 231, 231, 0.849);
+    transition: 70ms ease-in-out 70ms;
+    text-decoration: underline;
+    transform: scale(1.3);
+
+}
+
+.other-page-footer {
+    margin-top: 90rem;
+
+}
+
+.about-us-page-footer {
+    margin-top: 4rem;
+
+}
+
+.navigation {
+    border-top: 1px solid hsl(0, 0%, 0%);
+    margin-top: 3rem;
+
+}
+
+#mobile-nav {
+    margin-top: 85rem;
+}
+
+#mobile-nav2 {
+    margin-top: 7rem;
+}
+
+#contactlink {
+    margin-bottom: 3rem;
+
+}
+    
+.bottom-home, .bottom-menu, .bottom-about-us, .bottom-contact, .navigation-ul, .contact-us-footer-info {
+    font-family: 'montserrat';
+    color: rgba(24, 24, 24, 0.911);
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+    
+.contact-us-footer-info {
+    list-style-type: none;
+    line-height: 1rem;
+    
+}
+
+.bottom-footer {
+    background-color: #d69419;
+
+}
+
+.bottom-footer-block {
+    border-top: 1px solid black;
+    height: 1rem;
+    padding-top: 1rem;
+    margin-top: 2rem;
+
+}
+
+
+.bottom-footer-block, .bottom-footer-block2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.navigation-title-footer {
+    margin-top: 89rem;
+
+}
+
+.navigation-title-footer-about-us {
+    margin-top: 5rem;
+
+}
+
+h5, h6 {
+    font-family: 'montserrat';
+    text-align: center;
+
+}
+
+
+
+}
+
+
